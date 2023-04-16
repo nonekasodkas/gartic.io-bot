@@ -319,7 +319,7 @@ setInterval(function() {  if(spam == true){
   item.contentWindow.postMessage({'command': 'spam', 'spam': spam, 'spamid': spamid,  'text': "឵" + spamtext.value}, '*')
 ); s_id = 4;}
 	else if(s_id == 4){document.querySelectorAll('iframe').forEach( item =>
-  item.contentWindow.postMessage({'command': 'spam', 'spam': spam, 'spamid': spamid,  'text': "github.com/anonimbiri"}, '*')
+  item.contentWindow.postMessage({'command': 'spam', 'spam': spam, 'spamid': spamid,  'text': "بوتات مطير عمك .com"}, '*')
 ); s_id = 1;} } 
 }, 3000);
 
